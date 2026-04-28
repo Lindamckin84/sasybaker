@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SassyBaker | Homemade Marshmallows</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        /* ------------------------------
+           GLOBAL THEME
+        ------------------------------ */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            color: #3B2F2F;
+            /* deep brown text */
+            background: #F7EEDB;
+            /* cream parchment */
+        }
+
+        /* ------------------------------
+           HEADER
+        ------------------------------ */
+        header {
+            background: #F7EEDB;
+            /* cream */
+            padding: 25px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            border-bottom: 10px solid #D2A679;
+            /* thick tan border */
+            color: #3B2F2F;
+        }
+
+        /* ------------------------------
+           LOGO
+        ------------------------------ */
+        .logo-home img {
+            width: 260px;
+            display: block;
+            margin: 25px auto 10px;
+            border-radius: 16px;
+            border: 4px solid #D9B68C;
+            /* soft tan */
+            box-shadow: 0 4px 10px rgba(90, 62, 43, 0.25);
+        }
+
+        /* ------------------------------
+           NAVIGATION
+        ------------------------------ */
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: #FFF9F0;
+            border-bottom: 4px solid #D2A679;
+        }
+
+        nav a {
+            margin: 0 15px;
+            font-weight: 600;
+            color: #3B2F2F;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #A86F5A;
+        }
+
+        /* ------------------------------
+           CONTAINER
+        ------------------------------ */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* ------------------------------
+           HERO IMAGE
+        ------------------------------ */
+        .hero img {
+            width: 100%;
+            border-radius: 16px;
+            border: 4px solid #D9B68C;
+            box-shadow: 0 4px 12px rgba(90, 62, 43, 0.25);
+            margin-bottom: 30px;
+        }
+
+        /* ------------------------------
+           FEATURED TREATS
+        ------------------------------ */
+        .featured {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .featured img {
+            width: 32%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 16px;
+            border: 4px solid #D9B68C;
+            box-shadow: 0 4px 10px rgba(90, 62, 43, 0.25);
+        }
+
+        /* ------------------------------
+           BUTTON
+        ------------------------------ */
+        .button {
+            display: inline-block;
+            background: #4A2E1F;
+            /* chocolate brown */
+            color: #F7EEDB;
+            padding: 14px 22px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 25px;
+        }
+
+        .button:hover {
+            background: #A86F5A;
+        }
+
+        /* ------------------------------
+           FOOTER
+        ------------------------------ */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #3B2F2F;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/sasybaker-logo.jpeg" alt="SasyBaker"
+            style="width:180px; border-radius:12px; margin-bottom:10px;">
+        <div>SassyBaker Homemade Marshmallows</div>
+    </header>
+
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="order.html">Order</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Illustrated Menu Poster as Hero -->
+        <div class="hero">
+            <img src="images/menu-hero.jpg.png" alt="SassyBaker Illustrated Menu Poster">
+        </div>
+
+        <h2 style="text-align:center;">Featured Treats</h2>
+
+        <div class="featured">
+            <img src="images/strawberry-marshmallows.jpg" alt="Strawberry Marshmallows">
+            <img src="images/Caramel.jpg" alt="homemade Caramel Marshmallows">
+            <img src="images/pineapple-marshmallows.jpg" alt="Pineapple Marshmallows">
+        </div>
+
+        <div style="text-align:center;">
+            <a class="button" href="menu.html">View Full Menu</a>
+        </div>
+
+    </div>
+
+    <footer>© 2026 SassyBaker • Fountain Inn, SC</footer>
+
+</body>
+
+</html>
